@@ -1,7 +1,8 @@
 import DS from 'ember-data';
 
 export default DS.Model.extend({
-  model() {
-    return this.store.findAll('question');
-  },
+  author: DS.attr(),
+  title: DS.attr(),
+  content: DS.attr(),
+  addtl: DS.attr(),
 });
