@@ -1,15 +1,14 @@
 import Ember from 'ember';
 
-// var questions = [{
-//   id: 1,
-//   author: "Mary",
-//   title: "What is dihydrogen monoxide?",
-//   content: "HELP",
-//   addtl: "extra extra"
-// }];
-
 export default Ember.Route.extend({
   model() {
     return this.store.findAll("question");
   },
+  actions: {
+    saveNewQuestion(question) {
+      var newQuestion = this.store.createRecord("question", params);
+      newQuestion.save();
+      this.transitionTo("index");
+    }
+  }
 });
