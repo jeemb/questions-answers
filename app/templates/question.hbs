@@ -3,6 +3,6 @@
 {{new-answer saveAnswer = "saveAnswer" question=model}}
 <div class="answers">
   {{#each model.answers as |answer|}}
-    {{answer-tile answer=answer question=model}}
+    {{answer-tile answer=answer question=model deleteAnswer="deleteAnswer"}}
   {{/each}}
 </div>

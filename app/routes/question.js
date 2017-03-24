@@ -29,5 +29,5 @@ export default Ember.Route.extend({
       });
       this.transitionTo('question', question);
     },
-    }
+  }
 });
