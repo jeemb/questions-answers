@@ -4,25 +4,25 @@
 <form>
   <div class="form-group">
     <label for="author">Author</label>
-    {{input value=author id="author" class="form-control" placeholder=author}}
+    {{input value=author id="author" class="form-control" placeholder=question.author}}
   </div>
 
   <div class="form-group">
     <label for="title">Title</label>
-    {{input value=title id="title" class="form-control" placeholder=title}}
+    {{input value=title id="title" class="form-control" placeholder=question.title}}
   </div>
 
   <div class="form-group">
     <label for="content">Content</label>
-    {{input value=content id="content" class="form-control" placeholder=content}}
+    {{input value=content id="content" class="form-control" placeholder=question.content}}
   </div>
 
   <div class="form-group">
     <label for="addtl">Addt'l Notes</label>
-    {{input value=addtl id="addtl" class="form-control" placeholder=addtl}}
+    {{input value=addtl id="addtl" class="form-control" placeholder=question.addtl}}
   </div>
 
-  <button {{action 'updateQuestion' question}}>Edit question</button>
+  <button {{action 'updateQuestion' question}} class="btn btn-warning">Edit question</button>
 </form>
 {{else}}
 <button {{action 'showUpdateQuestionForm'}} class="btn btn-info">Update</button>

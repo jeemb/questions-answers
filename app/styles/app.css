@@ -1,0 +1,19 @@
+h1  {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.answer {
+  padding: 5px;
+  border: 2px solid grey;
+  border-radius: 25px;
+
+}
+
+.answer h3 {
+  border-bottom: 2px double lightgrey;
+  text-align: left;
+}
