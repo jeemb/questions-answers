@@ -1,2 +1,11 @@
 <h1>Welcome to the Question Board</h1>
 <h3>Ask any question, and hopefully someone will help you out!</h3>
+
+<ul>
+  {{#each model as |question|}}
+    <li>Author:{{question.author}}</li>
+    <li>Title:{{question.title}}</li>
+    <li>Content:{{question.content}}</li>
+    <li>Additional Notes:{{question.addtl}}</li>
+  {{/each}}
+</ul>
