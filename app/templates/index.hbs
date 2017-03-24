@@ -2,7 +2,7 @@
 <h3>Ask any question, and hopefully someone will help you out!</h3>
 
 <div class="questions">
-    {{#each model as |question|}}
+    {{#each model.questions as |question|}}
     {{question-tile question=question}}
     {{/each}}
 </div>

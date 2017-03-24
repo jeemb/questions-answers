@@ -5,10 +5,17 @@
   "content": "HELP",
   "addtl": "extra extra"
   }, {
-    
+
   "author": "Bob",
   "title": "How do I change a tire?",
   "content": "Help please",
   "addtl": "additional comments here"
-  }]
+  }],
+  "answers": [{
+    "author": "Brenda",
+    "content": "water"
+  }, {
+    "author": "Brad",
+    "content": "H2O"
+    }]
 }
