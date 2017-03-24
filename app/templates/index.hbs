@@ -1,8 +1,11 @@
 <h1>Welcome to the Question Board</h1>
 <h3>Ask any question, and hopefully someone will help you out!</h3>
 
-<ul>
-  {{#each model as |question|}}
+<div class="questions">
+
+  <ul>
+    {{#each model as |question|}}
     {{question-tile question=question}}
-  {{/each}}
-</ul>
+    {{/each}}
+  </ul>
+</div>
