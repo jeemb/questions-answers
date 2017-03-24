@@ -1,7 +1,6 @@
 # questions-answers
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a questions and answers forum created with ember.js! Users are able to add/update/delete questions and add answers to questions. 
 
 ## Prerequisites
 
@@ -25,18 +24,6 @@ You will need the following things properly installed on your computer.
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-## Planning
-
-1. Configuration/dependencies
-  * Clone this repository to desktop
-  * Navigate terminal into root folder of project
-  * `npm install`
-  * `bower install`
-  * `ember s` to start local server
-  * open web browser to `localhost:4200`
-
-2. Specs
-
 ### Specifications
 |Behavior|Input|Output|
 |--------|-----|------|
@@ -45,7 +32,9 @@ You will need the following things properly installed on your computer.
 |User can add new answer to question| user adds answer: "H2O/water"| output: answer displays to specific question page|
 |User can edit question| user edits question | app reloads question page with updated information
 
-3. Integration
+## Planning
+
+1. Integration
   * Create Questions model
   * Focus on getting questions functionality in place - index page and components to display questions
   * Create question page to display specific question
@@ -54,10 +43,10 @@ You will need the following things properly installed on your computer.
   * Focus on getting answers functionality in place (one-to-many relationship)
   * CRUD functionality for answers
 
-4. UX/UI
+2. UX/UI
   * Style with bootstrap/CSS.
 
-5. Polish
+3. Polish
   * Refactor if necessary
   * Check indentation
   * Update README (if needed)
