@@ -1,7 +1,7 @@
 <h1>Welcome to the Question Forum</h1>
 <h3>Hopefully someone can help you out!</h3>
 <hr>
-
+{{new-question saveNewQuestion="saveNewQuestion"}}
 <div class="questions">
     {{#each model.questions as |question|}}
     {{question-tile question=question}}

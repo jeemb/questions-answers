@@ -1,6 +1,6 @@
 # questions-answers
 
-This is a questions and answers forum created with ember.js! Users are able to add/update/delete questions and add answers to questions. 
+This is a questions and answers forum created with ember.js! Users are able to add/update/delete questions and add answers to questions.
 
 ## Prerequisites
 
@@ -38,17 +38,17 @@ You will need the following things properly installed on your computer.
   * Create Questions model
   * Focus on getting questions functionality in place - index page and components to display questions
   * Create question page to display specific question
+  * Add CRUD functionality for questions
   * Implement navigation bar at top of all pages
   * Create Answers model
   * Focus on getting answers functionality in place (one-to-many relationship)
-  * CRUD functionality for answers
+  * Add delete functionality for answers
 
 2. UX/UI
   * Style with bootstrap/CSS.
 
 3. Polish
   * Refactor if necessary
-  * Check indentation
   * Update README (if needed)
 
 ### Code Generators
