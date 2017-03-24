@@ -1,15 +1,14 @@
 { "questions": [{
 
-  "id": 1,
   "author": "Mary",
   "title": "What is dihydrogen monoxide?",
   "content": "HELP",
   "addtl": "extra extra"
   }, {
-    "id": 2,
-    "author": "Bob",
-    "title": "How do I change a tire?",
-    "content": "Help please",
-    "addtl": "additional comments here"
-    }]
-  }
+    
+  "author": "Bob",
+  "title": "How do I change a tire?",
+  "content": "Help please",
+  "addtl": "additional comments here"
+  }]
+}

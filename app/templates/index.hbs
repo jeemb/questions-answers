@@ -2,10 +2,8 @@
 <h3>Ask any question, and hopefully someone will help you out!</h3>
 
 <div class="questions">
-
-  <ul>
     {{#each model as |question|}}
-    {{question-tile question=question}}
+    <p>{{question.title}}</p>
+    <!-- {{question-tile question=question}} -->
     {{/each}}
-  </ul>
 </div>
