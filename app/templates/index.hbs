@@ -3,9 +3,6 @@
 
 <ul>
   {{#each model as |question|}}
-    <li>Author:{{question.author}}</li>
-    <li>Title:{{question.title}}</li>
-    <li>Content:{{question.content}}</li>
-    <li>Additional Notes:{{question.addtl}}</li>
+    {{question-tile question=question}}
   {{/each}}
 </ul>

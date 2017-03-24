@@ -36,6 +36,8 @@ You will need the following things properly installed on your computer.
   * open web browser to `localhost:4200`
 
 2. Specs
+
+### Specifications
 |Behavior|Input|Output|
 |--------|-----|------|
 |User can add a question and it will display on homepage| "What is dihydrogen monoxide?"|Question displays to homepage|
